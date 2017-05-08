@@ -1,0 +1,20 @@
+public daselectunit.courseDataTable Select_AllCourse()
+{
+return base.select_All(_QUERY_SELECTALL_course);
+}
+
+public daselectunit.courseDataTable Select_Allcourse_By_course id(string pcourse id)
+     {
+         OleDbParameter[]p=new OleDbParameter[]{new OleDbParameter("pcourse id",pcourse id)};
+    return base.select_By(_QUERY_SELECTALL_course_By_course id,p);
+}
+
+public daselectunit.courseDataTable selet_AllCourse_Like_By;
+{
+string temp=_QUERY_SELECTALL_Course_Like_By;
+temp=temp+pcourse name+"like pvalue";
+OleDbParameter[]p=new OleDbParameter[]{new OleDbParameter("pvalue",pvalue)};
+return base.select_By(temp,p);
+}
+}
+}

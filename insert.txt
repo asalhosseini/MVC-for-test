@@ -1,0 +1,5 @@
+ public bool Insert(string pcourse Id,string pcourse name,string pbranch id,string pteacher id,string phour)
+     {
+         OleDbParameter[]p=new OleDbParameter[]{new OleDbParameter("pcourse id",pcourse id),new OleDbParameter("pcourse name",pcourse name),new OleDbParameter("pbranch id",pbranch id),new OleDbParameter("pteacher name",pteacher name),new OleDbParameter("phour",phour)};
+    return base.execute_Command_NonQuery(_QUERY_INSERT_Course,person,p);
+}

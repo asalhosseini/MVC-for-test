@@ -1,0 +1,11 @@
+ public bool execute_Command_NonQuery(string pQuery, OleDbParameter[] pParams)
+        {
+            OleDbCommand cmd = new OleDbCommand();
+            cmd.CommandText = pQuery;
+            cmd.Connection = ConnectionManager.GetConnection2selectunit;
+            cmd.Parameters.AddRange(pParams);
+            ConnectionManager.Open_Connection2selectunit;
+            int i = cmd.ExecuteNonQuery();
+            ConnectionManager.Close_Connection_From_selectunit;
+            return i > 0;
+        }
