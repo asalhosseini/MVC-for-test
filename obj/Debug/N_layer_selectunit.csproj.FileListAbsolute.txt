@@ -1,0 +1,5 @@
+C:\Visual c# step by step\CHAPTER3\n layer\n layer\obj\Debug\ResolveAssemblyReference.cache
+C:\Visual c# step by step\CHAPTER3\n layer\n layer\obj\Debug\n_layer.Form1.resources
+C:\Visual c# step by step\CHAPTER3\n layer\n layer\obj\Debug\n_layer_course.UI.Form2.resources
+C:\Visual c# step by step\CHAPTER3\n layer\n layer\obj\Debug\n_layer.Properties.Resources.resources
+C:\Visual c# step by step\CHAPTER3\n layer\n layer\obj\Debug\N_layer_selectunit.csproj.GenerateResource.Cache

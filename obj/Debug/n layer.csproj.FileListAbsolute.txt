@@ -1,0 +1,3 @@
+C:\Visual c# step by step\CHAPTER3\n layer\n layer\obj\Debug\ResolveAssemblyReference.cache
+C:\Visual c# step by step\CHAPTER3\n layer\n layer\obj\Debug\n_layer.Properties.Resources.resources
+C:\Visual c# step by step\CHAPTER3\n layer\n layer\obj\Debug\n layer.csproj.GenerateResource.Cache

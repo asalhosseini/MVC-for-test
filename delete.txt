@@ -1,5 +1,0 @@
- public bool Delete_By_course id(string pcourse id)
-     {
-         OleDbParameter[]p=new OleDbParameter[]{new OleDbParameter("pcourse id",pcourse id)};
-    return base.execute_Command_NonQuery(_QUERY_DELETE_Course_By_course id,p);
-}
